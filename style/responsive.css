@@ -1,0 +1,99 @@
+@media screen and (max-width: 600px) {
+
+thead, tbody {
+    display: none;
+}
+body{
+    background-image: linear-gradient(#464159, #181818);
+}
+#track-card{
+    display: flex;
+}
+#principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#playlist{
+    display: none;
+}
+#infos{
+    margin: 0;
+}
+#infos h1{
+    font-size: 30px;
+}
+#info-desktop{
+    display: none;
+}
+#info-mobile{
+    display: block;
+    font-family: 'bold';
+    color: #8a8a8a;
+    font-size: 12px;
+}
+#buttons, #terceiro{
+    display: none;
+}
+#random-card{
+    display: flex;
+}
+#random-card p{
+    display: flex;
+    font-family: 'bold';
+    color: white;
+    background-color: rgb(68, 167, 68);
+    width: 230px;
+    height: 50px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#add p{
+    display: flex;
+    font-family: 'bold';
+    font-size: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+#add{
+    display: flex;
+}
+#track-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#track-img{
+    width: 20%;
+}
+#track-info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#track-card img{
+    width: 50px;
+    padding: 10px;
+}
+#track-info p{
+    margin: 0;
+    font-family: 'bold';
+    font-size: 15px;
+    color: white;
+    margin-bottom: 2px;
+}
+#track-info span{
+    font-family: 'bold';
+    color: #8a8a8a;
+    font-size: 13px;
+    margin-top: 2px;
+}
+}

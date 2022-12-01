@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#383838, #181818);
+    background-repeat: no-repeat;
+}
+#image{
+    padding: 30px;
+    display: flex;
+}
+#left-img img{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+}
+#right-img img{
+    width: 120px;
+    display: flex;
+}
+#principal{
+    display: flex;
+}
+#infos p:first-child{
+    font-family: 'bold';
+    color: white;
+    font-size: 15px;
+}
+#infos h1{
+    margin: 0;
+    font-family: 'bold';
+    font-size: 40px;
+    color: white;
+}
+#info-desktop{
+    font-family: 'bold';
+    color: #8a8a8a;
+    font-size: 15px;
+}
+#infos span{
+    color: white;
+}
+#infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+#pause{
+    display: flex;
+    color: white;
+    font-family: 'bold';
+    background-color: rgb(9, 210, 9);
+    width: 30%;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#outros{
+    color: white;
+    border: solid white;
+    border-radius: 50%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+#buttons p {
+    font-family: 'bold';
+}
+.follow p {
+    font-family: 'bold';
+    color: #8a8a8a;
+    display: flex;
+    position: relative;
+}
+#buttons{
+    display: flex;
+    margin: 0;
+}
+#pause, #outros, .follow{
+    margin: 0;
+}
+#terceiro{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-right: 0;
+    flex-direction: column;
+    font-family: 'bold';
+    color: #8a8a8a;
+    font-size: 15px;
+}
+#table{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main{
+}
+table{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+thead{
+    box-sizing: content-box;
+}
+th{
+    text-align: start;
+}
+tr{
+    font-family: 'bold';
+    color: #818181;
+    font-size: 15px;
+    
+}
+td{
+    font-family: 'bold';
+    color: white;
+    font-size: 15px;
+    padding: 16px;
+    text-align: start;
+    border-top: 1px solid rgb(52, 51, 51);
+    border-collapse: collapse;
+}
+tbody tr:hover{
+    background-color: #383838;
+}
+#calendar{
+    width: 30px;
+}
+#clock{
+    width: 30px;
+}
+#info-mobile{
+    display: none;
+}
+#random-card{
+    display: none;
+}
+#add{
+    display: none;
+}
+#track-card{
+    display: none;
+}
