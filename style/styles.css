@@ -113,7 +113,6 @@ table{
 thead{
     box-sizing: content-box;
     position: relative;
-    left: 15px;
 }
 th{
     text-align: start;
@@ -143,7 +142,7 @@ td{
 }
 #titulo{
     position: relative;
-    left: 85px;
+    left: 95px;
 }
 tbody tr:hover{
     background-color: #383838;
@@ -151,12 +150,21 @@ tbody tr:hover{
 #calendar{
     width: 30px;
     position: relative;
-    right: 35px;
+    right: 20px;
 }
 #clock{
     width: 30px;
     position: relative;
-    right: 35px;
+    right: -10px;
+    margin: 0;
+}
+#album{
+    position: relative;
+    left: 15px;
+}
+#artista{
+    position: relative;
+    left: 15px;
 }
 #info-mobile{
     display: none;
